@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="Page-1" id="GcxDhRZRRYWygmx5lJ6D">
-    <mxGraphModel dx="2385" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2051" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,7 +78,10 @@
         <mxCell id="TTOd9ksT3DEn7xMspP2U-14" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Generalised Linear Models" vertex="1">
           <mxGeometry height="60" width="120" x="-500" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="TTOd9ksT3DEn7xMspP2U-16" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Logistic" vertex="1">
+        <mxCell id="0sATpbcnCbdbjLfDtfcH-3" edge="1" parent="1" source="TTOd9ksT3DEn7xMspP2U-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0sATpbcnCbdbjLfDtfcH-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TTOd9ksT3DEn7xMspP2U-16" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Categorical Data (Yes/No)" vertex="1">
           <mxGeometry height="60" width="120" x="-580" y="640" as="geometry" />
         </mxCell>
         <mxCell id="TTOd9ksT3DEn7xMspP2U-24" edge="1" parent="1" source="TTOd9ksT3DEn7xMspP2U-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TTOd9ksT3DEn7xMspP2U-23" value="">
@@ -118,7 +121,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TTOd9ksT3DEn7xMspP2U-32" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Beta through MLE" vertex="1">
-          <mxGeometry x="-500" y="510" as="geometry">
+          <mxGeometry x="-560" y="555" as="geometry">
             <mxPoint x="4" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -155,6 +158,14 @@
           <mxGeometry x="-275" y="480" as="geometry">
             <mxPoint x="50" y="-2" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0sATpbcnCbdbjLfDtfcH-1" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="If values only positive, right-skewed." vertex="1">
+          <mxGeometry x="-120" y="555" as="geometry">
+            <mxPoint x="50" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0sATpbcnCbdbjLfDtfcH-2" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Logistic&lt;div&gt;Multinomial Logistic&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-670" y="760" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
