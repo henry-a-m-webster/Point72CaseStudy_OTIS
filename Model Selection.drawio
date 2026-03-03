@@ -758,7 +758,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Robustness and Diagnostics" id="BuXjuiqzipsW3ugjb8e3">
-    <mxGraphModel dx="2604" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1588" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dwwXgvvNZPaAObUnSSQe-0" />
         <mxCell id="dwwXgvvNZPaAObUnSSQe-1" parent="dwwXgvvNZPaAObUnSSQe-0" />
@@ -782,6 +782,9 @@
         </mxCell>
         <mxCell id="AhYVaztV5oKUs3T0Crcd-3" parent="dwwXgvvNZPaAObUnSSQe-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Beta GLM" vertex="1">
           <mxGeometry height="60" width="120" x="-160" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="tLVTnBLiWDl3SKaJWxJ2-1" edge="1" parent="dwwXgvvNZPaAObUnSSQe-1" source="AhYVaztV5oKUs3T0Crcd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tLVTnBLiWDl3SKaJWxJ2-0" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AhYVaztV5oKUs3T0Crcd-4" parent="dwwXgvvNZPaAObUnSSQe-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Logistic" vertex="1">
           <mxGeometry height="60" width="120" x="-810" y="420" as="geometry" />
@@ -842,6 +845,9 @@
         </mxCell>
         <mxCell id="AhYVaztV5oKUs3T0Crcd-25" edge="1" parent="dwwXgvvNZPaAObUnSSQe-1" source="AhYVaztV5oKUs3T0Crcd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="AhYVaztV5oKUs3T0Crcd-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLVTnBLiWDl3SKaJWxJ2-0" parent="dwwXgvvNZPaAObUnSSQe-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" value="Report&lt;br&gt;1) ROC-AUC&lt;br&gt;2) Likelihood Ratio test of feature groups&lt;div&gt;3) Log-loss for out of sample (negative likelihood here)&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="130" x="-815" y="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
